@@ -1,0 +1,68 @@
+:root{
+    --blue:#003865;
+    --orange:#EF5B0C;
+    --light:#D4F6CC;
+    --green:#3CCF4E;
+    --white:#FEFBF6;
+    --light-blue:#395B64;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+    color:var(--white);
+}
+
+body{
+    background-image: linear-gradient(var(--light),var(--light-blue));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    text-align: center;
+    font-size: 22px;
+    margin: 5% 0% 5% 0%;
+    color: var(--orange);
+    font-weight: 900;
+}
+
+main{
+    text-align: center;
+    background-color: var(--blue);
+    width: 25rem;
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    border: 10px solid var(--light-blue);
+}
+
+.amount-input{
+    display: flex;
+    align-items: center;
+    background-color: var(--light);
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+    color: var(--blue);
+}
+
+.amount-input .new-input{
+    appearance: none;
+    border: none;
+    background: none;
+    padding-left: 10px;
+    outline: none;
+    color: var(--orange);
+}
+
+#final-amount{
+    font-size: 24px;
+    font-weight: 1000;
+}
