@@ -1,3 +1,3 @@
 # GST-Calculator
 This is a GST Calculator.</br>
-https://indira1vik.github.io/GST-Calculator/site/
+[Website Link](https://indira1vik.github.io/gstcalc/site/)
